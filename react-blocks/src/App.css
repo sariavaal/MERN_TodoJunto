@@ -1,0 +1,59 @@
+div#root {
+  min-height: 100vh;
+}
+.app {
+  display: block;
+  background-color: #dddddd;
+  padding: 10px;
+  min-height: 97vh;
+}
+p {
+  margin: 0;
+}
+.header {
+  min-height: 100px;
+  background-color: #6aa84f;
+}
+
+.navigation {
+  min-height: 100px;
+  margin-top: 10px;
+  float: left;
+  background-color: #6fa8df;
+  min-height: 65vh;
+  min-width: 20%;
+}
+
+.main {
+  margin-top: 10px;
+  float: right;
+  min-height: 100px;
+  background-color: #e06666;
+  min-width: 78%;
+  min-height: 74vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.subContents {
+  min-height: 40vh;
+  background-color: #ffd966;
+  width: 30%;
+}
+.advertisement {
+  min-height: 100px;
+  background-color: #b4a7d6;
+  width: 97%;
+  min-height: 3vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+div {
+  border: 2px solid #000;
+}
